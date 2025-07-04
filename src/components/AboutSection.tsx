@@ -45,7 +45,7 @@ const AboutSection = () => {
           <div className="space-y-6">
             <div className="relative">
               <img 
-                src="public/lovable-uploads/profile.png" 
+                src="/lovable-uploads/profile.png" 
                 alt="Abhishek Alavandi" 
                 className="w-full max-w-md rounded-2xl shadow-2xl mx-auto"
               />
