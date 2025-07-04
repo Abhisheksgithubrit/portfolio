@@ -37,6 +37,7 @@ const AboutSection = () => {
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
             Passionate full stack developer skilled in building scalable web applications and integrating AI-powered solutions using Java, Python, and modern frameworks.
+
           </p>
         </div>
 
@@ -44,7 +45,7 @@ const AboutSection = () => {
           <div className="space-y-6">
             <div className="relative">
               <img 
-                src="Profile(3).jpg" 
+                src="public/lovable-uploads/profile.png" 
                 alt="Abhishek Alavandi" 
                 className="w-full max-w-md rounded-2xl shadow-2xl mx-auto"
               />

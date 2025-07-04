@@ -28,7 +28,7 @@ const HeroSection = () => {
         <div className="relative mb-8">
           <div className="w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-white shadow-2xl relative z-10">
             <img 
-              src="/lovable-uploads/85a3ac9e-7b0f-406d-b638-48a735ff39ee.png" 
+              src="public/lovable-uploads/profile.png" 
               alt="Abhishek Alavandi" 
               className="w-full h-full object-cover"
             />
@@ -49,7 +49,7 @@ const HeroSection = () => {
               Full Stack Developer
             </h2>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-           Turning ideas into interactive web experiences with a mix of AI, Python, Java, and full stack development.
+              Crafting digital experiences with AI, DevOps, and modern web technologies
             </p>
           </div>
 

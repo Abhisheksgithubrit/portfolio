@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
@@ -6,11 +5,13 @@ import AboutSection from '@/components/AboutSection';
 import SkillsSection from '@/components/SkillsSection';
 import ProjectsSection from '@/components/ProjectsSection';
 import ExperienceSection from '@/components/ExperienceSection';
+import CertificationSection from '@/components/CertificationSection';
 import ContactSection from '@/components/ContactSection';
 
 const Index = () => {
   const [darkMode, setDarkMode] = useState(false);
 
+  // Toggle dark mode class on root html element
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add('dark');
@@ -20,17 +21,18 @@ const Index = () => {
   }, [darkMode]);
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'dark' : ''}`}>
+    <div className="min-h-screen transition-colors duration-300 bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
       <Navigation darkMode={darkMode} setDarkMode={setDarkMode} />
-      
+
       <main>
-        <div id="home">
+        <section id="home">
           <HeroSection />
-        </div>
+        </section>
         <AboutSection />
         <SkillsSection />
         <ProjectsSection />
         <ExperienceSection />
+        <CertificationSection />
         <ContactSection />
       </main>
 
@@ -39,10 +41,10 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-gray-400 mb-4 md:mb-0">
-              © 2024 Abhishek Alavandi. All rights reserved.
+              
             </p>
             <p className="text-sm text-gray-400">
-              Built with React, TypeScript & Tailwind CSS
+             
             </p>
           </div>
         </div>
