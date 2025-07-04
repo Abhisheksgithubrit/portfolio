@@ -5,8 +5,8 @@ import { Button } from '@/components/ui/button';
 const HeroSection = () => {
   const handleResumeDownload = () => {
     const link = document.createElement('a');
-    link.href = '/Abhishek_Alavandi.pdf';
-    link.download = 'Abhishek_Alavandi.pdf';
+    link.href = '/lovable-uploads/Abhi_resume.pdf';
+    link.download = 'Abhi_resume.pdf';
     link.click();
   };
 
